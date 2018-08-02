@@ -15,10 +15,6 @@ public class home extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-
-
-
-
         Button mo3 =(Button)findViewById(R.id.mo);
         Button mo2 =(Button)findViewById(R.id.aboutUs);
 
@@ -57,10 +53,6 @@ public class home extends AppCompatActivity {
         Intent myIntent = new Intent(this,aboutActivity.class);
         startActivity(myIntent);
     }
-
-
-
-
 
 
 

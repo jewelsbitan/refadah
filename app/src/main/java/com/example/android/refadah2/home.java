@@ -1,6 +1,7 @@
 package com.example.android.refadah2;
 
 import android.content.Intent;
+import android.graphics.Paint;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -18,12 +19,12 @@ public class home extends AppCompatActivity {
 
 
 
-
-        Button mo =(Button)findViewById(R.id.next);
+        Button mo3 =(Button)findViewById(R.id.mo);
         Button mo2 =(Button)findViewById(R.id.aboutUs);
 
+        mo2.setPaintFlags(mo2.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
 
-        mo.setOnClickListener(new View.OnClickListener() {
+        mo3.setOnClickListener(new View.OnClickListener() {
             @Override
 
             public void onClick(View v) {
@@ -47,7 +48,7 @@ public class home extends AppCompatActivity {
 
     public void openNext(){
 
-        Intent myIntent = new Intent(this,Main2Activity.class);
+        Intent myIntent = new Intent(this,depositActivity.class);
         startActivity(myIntent);
     }
 

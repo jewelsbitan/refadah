@@ -6,11 +6,10 @@
     android:layout_height="match_parent"
     tools:context="com.example.android.refadah2.home">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/background"
-        android:gravity="center"
         android:orientation="vertical"
         >
 
@@ -19,41 +18,54 @@
             android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="44dp"
+            android:layout_alignParentTop="true"
             android:background="@drawable/white"
             android:paddingBottom="10dp"
             android:paddingTop="10dp"
             app:srcCompat="@drawable/logo" />
 
+
+        <Button
+            android:id="@+id/hj"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/aboutUs"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="152dp"
+            android:background="#fadd64"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal"
+            android:text="@string/buttonP"
+            android:textSize="30dp" />
+
+
+        <Button
+            android:id="@+id/mo"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/hj"
+            android:layout_alignLeft="@+id/hj"
+            android:layout_alignStart="@+id/hj"
+            android:layout_marginBottom="39dp"
+            android:background="#fadd64"
+            android:fontFamily="sans-serif"
+            android:onClick="mo"
+            android:text="@string/buttonM"
+            android:textSize="30dp" />
+
+
         <Button
             android:id="@+id/aboutUs"
             android:layout_width="180dp"
             android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@null"
+            android:fontFamily="Roboto-Thin italic"
             android:gravity="center_horizontal"
             android:onClick="aboutUs"
             android:text="@string/aboutB"
-            android:background="#fadd64"
-            android:fontFamily="Roboto-Thin italic"
-            android:textSize="30dp"
-                      />
-
-
-        <Button
-            android:id="@+id/next"
-            android:layout_marginTop="7dp"
-
-            android:layout_height="wrap_content"
-            android:gravity="center_horizontal"
-            android:text="@string/nextB"
-            android:onClick="next"
-            android:background="#fadd64"
-            android:layout_width="180dp"
-            android:fontFamily="Roboto-Thin italic"
-            android:textSize="30dp"
-            />
-
-
-
-    </LinearLayout>
+            android:textSize="25dp" />
+    </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>

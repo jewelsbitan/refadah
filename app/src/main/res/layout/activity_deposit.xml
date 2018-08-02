@@ -85,7 +85,7 @@
             android:background="#fadd64"
             android:layout_width="180dp"
             android:fontFamily="Roboto-Thin italic"
-            android:textSize="30dp"
+            android:textSize="25dp"
             android:layout_marginBottom="12dp"
             />
 
@@ -97,7 +97,7 @@
             android:background="#fadd64"
             android:layout_width="180dp"
             android:fontFamily="Roboto-Thin italic"
-            android:textSize="30dp"
+            android:textSize="25dp"
             />
 
 

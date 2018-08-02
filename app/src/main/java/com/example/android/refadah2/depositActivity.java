@@ -1,5 +1,6 @@
 package com.example.android.refadah2;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -15,11 +16,23 @@ public class depositActivity extends AppCompatActivity {
         setContentView(R.layout.activity_deposit);
 
         Button showP =(Button)findViewById(R.id.button2);
+        Button next =(Button)findViewById(R.id.buttonn);
+
 
         final EditText txt1;
         final EditText txt2;
         txt1 =(EditText)findViewById(R.id.numberOfArrows);
         txt2 =(EditText)findViewById(R.id.resultText);
+
+
+        next.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openNext();
+            }
+        });
+
+
 
         showP.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -38,6 +51,12 @@ else{
             }
         });
 
+
     }
 
+    public void openNext(){
+
+        Intent myIntent = new Intent(this,home.class);
+        startActivity(myIntent);
+    }
 }

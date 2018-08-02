@@ -90,7 +90,7 @@
             />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/buttonn"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             android:text="@string/nextB"
@@ -98,6 +98,7 @@
             android:layout_width="180dp"
             android:fontFamily="Roboto-Thin italic"
             android:textSize="25dp"
+            android:onClick="next"
             />
 
 

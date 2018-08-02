@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".depositActivity" />
         <activity android:name=".aboutActivity" />
-        <activity android:name=".hajjActivity"></activity>
+        <activity android:name=".hajjActivity" />
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>

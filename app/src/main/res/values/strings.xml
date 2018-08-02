@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">رفادة</string>
+
+
+    <string name="buttonM">متبرع</string>
+    <string name="buttonP">حاج</string>
+
+    <string name="note"> ملاحظة: قيمة السهم الواحد 10 ريال</string>
+    <string name="numOfArrowT">عدد الأسهم </string>
+    <string name="priceT">المبلغ </string>
+    <string name="nextB">التالي </string>
+    <string name="showPB">عرض المبلغ </string>
+    <string name="aboutB">عنا </string>
+
+
+</resources>

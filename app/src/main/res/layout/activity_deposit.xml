@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.refadah2.depositActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/note"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+            tools:layout_editor_absoluteX="102dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/numberOfArrows"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberSigned"
+                tools:layout_editor_absoluteX="118dp"
+                tools:layout_editor_absoluteY="366dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/numOfArrowT"
+                tools:layout_editor_absoluteX="258dp"
+                tools:layout_editor_absoluteY="379dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/resultText"
+                android:layout_width="91dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                tools:layout_editor_absoluteX="118dp"
+                tools:layout_editor_absoluteY="425dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/priceT"
+                tools:layout_editor_absoluteX="283dp"
+                tools:layout_editor_absoluteY="438dp" />
+
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:onClick="showPrice"
+            android:text="@string/showPB"
+            android:background="#fadd64"
+            android:layout_width="180dp"
+            android:fontFamily="Roboto-Thin italic"
+            android:textSize="30dp"
+            android:layout_marginBottom="12dp"
+            />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/nextB"
+            android:background="#fadd64"
+            android:layout_width="180dp"
+            android:fontFamily="Roboto-Thin italic"
+            android:textSize="30dp"
+            />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

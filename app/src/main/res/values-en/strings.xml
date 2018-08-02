@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">REFADAH</string>
+
+
+    <string name="buttonM">Depositor</string>
+    <string name="buttonP">Pilgrim</string>
+
+    <string name="note">Note: The arrow containt 10 SAR</string>
+    <string name="numOfArrowT">Number of arrows</string>
+    <string name="priceT">amount </string>
+    <string name="nextB">Next </string>
+    <string name="showPB">Show amount</string>
+    <string name="aboutB">About us </string>
+
+
+</resources>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/back"
+
     tools:context="com.example.android.refadah2.depositActivity">
 
 
@@ -17,13 +17,17 @@
         >
 
         <TextView
+            android:textColor="#cc0000"
+android:layout_marginTop="8dp"
             android:id="@+id/textView2"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="@string/note"
             app:layout_constraintBottom_toTopOf="@+id/linearLayout"
-            tools:layout_editor_absoluteX="102dp" />
+            tools:layout_editor_absoluteX="102dp"
+            android:textSize="22dp"
+            />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -36,6 +40,8 @@
                 android:layout_width="61dp"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:textSize="25dp"
+
                 android:inputType="numberSigned"
                 tools:layout_editor_absoluteX="118dp"
                 tools:layout_editor_absoluteY="366dp" />
@@ -45,6 +51,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/numOfArrowT"
+                android:textSize="25dp"
                 tools:layout_editor_absoluteX="258dp"
                 tools:layout_editor_absoluteY="379dp" />
 
@@ -62,6 +69,8 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="number"
+                android:textSize="25dp"
+
                 tools:layout_editor_absoluteX="118dp"
                 tools:layout_editor_absoluteY="425dp" />
 
@@ -70,6 +79,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/priceT"
+                android:textSize="25dp"
+
                 tools:layout_editor_absoluteX="283dp"
                 tools:layout_editor_absoluteY="438dp" />
 
@@ -78,16 +89,19 @@
         </LinearLayout>
 
         <Button
+
             android:id="@+id/button2"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             android:onClick="showPrice"
             android:text="@string/showPB"
-            android:background="#fadd64"
+            android:background="@drawable/hbottons"
             android:layout_width="180dp"
+            android:layout_marginTop="32dp"
             android:fontFamily="Roboto-Thin italic"
-            android:textSize="25dp"
-            android:layout_marginBottom="12dp"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_marginBottom="14dp"
             />
 
         <Button
@@ -95,10 +109,10 @@
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             android:text="@string/nextB"
-            android:background="#fadd64"
+            android:background="@drawable/hbottons"
             android:layout_width="180dp"
             android:fontFamily="Roboto-Thin italic"
-            android:textSize="25dp"
+            android:textSize="20dp"
             android:onClick="next"
             />
 

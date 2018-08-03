@@ -19,20 +19,6 @@
         <activity android:name=".depositActivity" />
         <activity android:name=".aboutActivity" />
         <activity android:name=".hajjActivity" />
-        <activity android:name=".MainActivity" />
-        <activity
-            android:name=".ItemListActivity"
-            android:label="@string/title_item_list"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".ItemDetailActivity"
-            android:label="@string/title_item_detail"
-            android:parentActivityName=".ItemListActivity"
-            android:theme="@style/AppTheme.NoActionBar">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.android.refadah2.ItemListActivity" />
-        </activity>
         <activity android:name=".Activity"></activity>
     </application>
 

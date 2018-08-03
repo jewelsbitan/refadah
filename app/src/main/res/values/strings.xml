@@ -4,7 +4,6 @@
 
     <string name="buttonM">متبرع</string>
     <string name="buttonP">حاج</string>
-
     <string name="note"> ملاحظة: قيمة السهم الواحد 10 ريال</string>
     <string name="numOfArrowT">عدد الأسهم </string>
     <string name="priceT">المبلغ </string>
@@ -13,6 +12,10 @@
     <string name="aboutB">عنا </string>
     <string name="title_item_list">Items</string>
     <string name="title_item_detail">Item Detail</string>
+    <string name="find">جد طريقك لأقرب غذاء صحي!</string>
+    <string name="Cancle">إلغاء</string>
+    <string name="Confirm">تأكيد</string>
+
 
 
 </resources>

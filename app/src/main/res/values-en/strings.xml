@@ -12,6 +12,9 @@
     <string name="nextB">Next </string>
     <string name="showPB">Show amount</string>
     <string name="aboutB">About us </string>
+    <string name="find">Find Your nearest HEALTHY FOOD !</string>
+    <string name="Cancle">Cancle</string>
+    <string name="Confirm">Confirm</string>
 
 
 </resources>

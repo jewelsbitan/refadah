@@ -8,17 +8,18 @@
 
  <RelativeLayout
      android:layout_width="match_parent"
-     android:layout_height="match_parent">
-
+     android:layout_height="match_parent"
+>
 
 
      <TextView
          android:layout_width="match_parent"
          android:layout_height="wrap_content"
-         android:text="Find Your nearest HEALTHY FOOD !"
+         android:text="@string/find"
          android:gravity="center_horizontal"
          android:layout_marginTop="30dp"
          android:layout_alignParentTop="true"
+         android:textColor="#000000"
          android:textSize="20dp"
          />
 
@@ -32,11 +33,12 @@
          android:id="@+id/button3"
          android:layout_width="match_parent"
          android:layout_height="wrap_content"
-         android:background="#fadd64"
+         android:background="@drawable/hbottons"
+
          android:layout_alignParentBottom="true"
-         android:fontFamily="sans-serif"
+         android:fontFamily="sans-serif-condensed"
          android:onClick="Exit"
-         android:text="Cancel"
+         android:text="@string/Cancle"
          tools:ignore="OnClick" />
 
 

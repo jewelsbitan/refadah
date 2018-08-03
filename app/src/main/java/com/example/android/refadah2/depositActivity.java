@@ -67,7 +67,7 @@ public class depositActivity extends AppCompatActivity {
         nr = nr*10;
         String nr2 = String.valueOf(nr);
 
-        b.putString("Amount",nr2 + " SR");
+        b.putString("Amount","Your Amount is : "+nr2 + "");
 
         myIntent.putExtras(b);
 

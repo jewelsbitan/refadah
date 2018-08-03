@@ -20,6 +20,6 @@
     <string name="Name">الاسم</string>
     <string name="Card">رقم البطاقة</string>
     <string name="please">من فضلك ادخل بياناتك!</string>
-
-
+    <string name="about">    رِفادة هو تطبيق لمساعدة    المتبرعين من جميع أنحاء العالم للمشاركة في خدمة حجاج بيت الله الحرام لتوفير أطعمة صحية باستخدام وسائل الدفع الإلكترونية
+</string>
 </resources>

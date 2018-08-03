@@ -30,9 +30,7 @@
         android:fontFamily="sans-serif-condensed"
         android:layout_marginTop="202dp"
         android:layout_centerHorizontal="true"
-
-        android:text="        رِفادة هو تطبيق لمساعدة    المتبرعين من جميع أنحاء العالم للمشاركة في خدمة حجاج بيت الله الحرام لتوفير أطعمة صحية باستخدام وسائل الدفع الإلكترونية "
-
+        android:text="@string/about"
         />
 
 </RelativeLayout>

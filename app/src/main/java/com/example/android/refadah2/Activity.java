@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Activity extends AppCompatActivity {
 
@@ -40,6 +41,7 @@ Co.setOnClickListener(new View.OnClickListener() {
     }
     public void Confirm(){
 
+        Toast.makeText(getApplicationContext(),"Thank you :) !" , Toast.LENGTH_LONG).show();
         Intent myIntent = new Intent(this,home.class);
         startActivity(myIntent);
     }

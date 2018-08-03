@@ -15,7 +15,11 @@
     <string name="find">جد طريقك لأقرب غذاء صحي!</string>
     <string name="Cancle">إلغاء</string>
     <string name="Confirm">تأكيد</string>
-
+    <string name="CVV">الرمز</string>
+    <string name="EXP">الانتهاء</string>
+    <string name="Name">الاسم</string>
+    <string name="Card">رقم البطاقة</string>
+    <string name="please">من قضلك ادخل بياناتك!</string>
 
 
 </resources>

@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">REFADAH</string>
-
-
     <string name="buttonM">Depositor</string>
     <string name="buttonP">Pilgrim</string>
-
     <string name="note">Note: The arrow containt 10 SAR</string>
     <string name="numOfArrowT">Number of arrows</string>
     <string name="priceT">amount </string>
@@ -15,6 +12,11 @@
     <string name="find">Find Your nearest HEALTHY FOOD !</string>
     <string name="Cancle">Cancle</string>
     <string name="Confirm">Confirm</string>
+    <string name="CVV">CVV</string>
+    <string name="EXP">EXP</string>
+    <string name="Name">Name</string>
+    <string name="Card">Card Number</string>
+    <string name="please">Please Fill Your Cridit Information !</string>
 
 
 </resources>

@@ -35,6 +35,7 @@
             android:background="#fadd64"
             android:fontFamily="sans-serif"
             android:gravity="center_horizontal"
+            android:onClick="mo4"
             android:text="@string/buttonP"
             android:textSize="30dp" />
 

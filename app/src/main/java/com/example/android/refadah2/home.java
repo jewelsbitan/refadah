@@ -17,6 +17,9 @@ public class home extends AppCompatActivity {
 
         Button mo3 =(Button)findViewById(R.id.mo);
         Button mo2 =(Button)findViewById(R.id.aboutUs);
+        Button mo4 =(Button)findViewById(R.id.hj);
+
+
 
         mo2.setPaintFlags(mo2.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
 
@@ -38,6 +41,14 @@ public class home extends AppCompatActivity {
             }
         });
 
+        mo4.setOnClickListener(new View.OnClickListener() {
+            @Override
+
+            public void onClick(View v) {
+
+                openHajj();
+            }
+        });
     }
 
 
@@ -54,7 +65,11 @@ public class home extends AppCompatActivity {
         startActivity(myIntent);
     }
 
+    public void openHajj(){
 
+        Intent myIntent = new Intent(this,hajjActivity.class);
+        startActivity(myIntent);
+    }
 
         /*
 

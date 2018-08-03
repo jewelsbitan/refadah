@@ -6,4 +6,45 @@
     android:layout_height="match_parent"
     tools:context="com.example.android.refadah2.hajjActivity">
 
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+
+
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Find Your nearest HEALTHY FOOD !"
+         android:gravity="center_horizontal"
+         android:layout_marginTop="30dp"
+         android:layout_alignParentTop="true"
+         android:textSize="20dp"
+         />
+
+     <ImageView
+         android:layout_width="match_parent"
+         android:layout_height="400dp"
+         app:srcCompat="@drawable/map"
+         android:layout_centerVertical="true"/>
+
+     <Button
+         android:id="@+id/button3"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:background="#fadd64"
+         android:layout_alignParentBottom="true"
+         android:fontFamily="sans-serif"
+         android:onClick="Exit"
+         android:text="Cancel"
+         tools:ignore="OnClick" />
+
+
+
+
+ </RelativeLayout>
+
+
+
+
 </android.support.constraint.ConstraintLayout>

@@ -9,7 +9,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_horizontal">
-
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center_horizontal"
+       android:textSize="20dp"
+       android:layout_marginTop="40dp"
+       android:text="Please Fill Your Cridit Information !"
+       />
 
     <EditText
         android:id="@+id/editText"
@@ -17,7 +24,7 @@
         android:layout_height="61dp"
         android:layout_marginTop="109dp"
         android:ems="10"
-        android:layout_marginLeft="10dp"
+        android:layout_marginLeft="20dp"
         android:inputType="textPersonName"
         android:hint="Name"/>
 
@@ -26,7 +33,7 @@
         android:layout_width="337dp"
         android:layout_height="59dp"
         android:layout_marginTop="201dp"
-        android:layout_marginLeft="10dp"
+        android:layout_marginLeft="20dp"
         android:hint="Card Number"
         android:ems="10"
         android:inputType="number"/>
@@ -100,6 +107,8 @@
         android:layout_marginLeft="200dp"
         android:text="Confirm"
         android:onClick="Confirm"
+        android:background="#fadd64"
+        android:fontFamily="sans-serif"
 
     />
 
@@ -110,7 +119,9 @@
         android:layout_marginTop="402dp"
         android:layout_marginLeft="70dp"
         android:text="Cancel"
-        android:onClick="cancel"/>
+        android:onClick="cancel"
+        android:background="#fadd64"
+        android:fontFamily="sans-serif"/>
 
     <TextView
         android:id="@+id/textView8"
